@@ -43,7 +43,7 @@ prose:
           element: "text"
           label: "When"
           help: "The date of the event"
-          placeholder: "CURRENT_DATETIME"
+          placeholder: CURRENT_DATETIME
           type: "datetime"
       - name: "where"
         field:
