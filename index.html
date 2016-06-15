@@ -4,14 +4,33 @@ layout: default
 
 {% for post in site.posts %}
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-  <header class="post-header">
-    <h2 class="post-title">
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h2>
-  </header>
+	<header class="post-header">
+		<h2 class="post-title">
+			<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		</h2>
+	</header>
 </article>
 {% endfor %}
+
+{% include form.html %}
+
+<div class="about-us">
+	<h2>About us</h2>
+	<div class="about-us-content">
+		Welcome to the official Facebook page of the Russian Cultural Exchange of Montreal!
+
+		Our mission is to create a centre to promote a greater appreciation for various aspects of the past and present Russian world. We encourage participation from Russians of Montreal, francophones, anglophones, and anyone else who is interested in learning about Russia. You do not need to speak any Russian at all in order to participate in our events.
+
+		Our events include: Russian conversation club for all levels; culinary classes with recipes from Russia and other former Soviet bloc countries; Russian holiday celebrations; literature readings, film screenings, and an speaker series featuring academics who specialize in various aspects of Russian arts, culture and history.
+
+		Our permanent host location is the cozy art-gallery/home-style cafe, Anticafe Montreal (294, rue Sainte-Catherine, Montreal Ouest; more info here: https://www.facebook.com/anticafemontreal), located right on Place-des-Arts!
+
+		Every week we host a different event. We will post in our "Events" tab on Facebook and in the description on Meetup.com (http://www.meetup.com/anticafemontreal/events/227522266). You can also sign up for our monthly newsletter to receive an email of all our events at once. We DO NOT share your email with anyone.
+
+		Contact: russianculturalexchange@gmail.com
+	</div>
+</div>
 
 <p class="rss-subscribe" style="display: none">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
