@@ -31,5 +31,19 @@ prose:
         field:
           element: "text"
           label: "Image"
-          placeholder: "Image link"
-          type: "text"
+          help: "The image will be used as a background cover for the post. An easy way to upload the image is to drop it into post and then get it’s link."
+          placeholder: "img/my_image.jpg"
+          type: "url"
+      - name: "facebook"
+        field:
+          element: "text"
+          label: "Facebook url"
+          help: "Link to the facebook post. That will insert facebook post at the bottom of the page."
+          placeholder: "https://www.facebook.com/20531316728/posts/10154009990506729/"
+          type: "url"
+      - name: "comments"
+        field:
+          element: "checkbox"
+          label: "Enable comments"
+          help: "This will enable commentaries for the post"
+          value: true
