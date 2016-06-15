@@ -21,13 +21,13 @@ prose:
   siteurl: 'http://rcemtl.github.io'
   media: 'img'
   metadata:
-  _posts:
-    - name: "title"
-      field:
-        element: "text"
-        label: "Title"
-        type: "text"
-    - name: "image"
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          type: "text"
+      - name: "image"
         field:
           element: "text"
           label: "Image"
