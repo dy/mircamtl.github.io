@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Traditional russian tea ceremony
 
@@ -13,4 +13,4 @@ Presentation in English on the Russian samovar method and history of Russia's te
 
 Ticket includes access to the cafe and gallery during your visit; unlimited Russian tea ceremony: (five special blends: black, green, rooibos and linden tisanes, and iced green tea); generous portions of Russian sweet and savory accompaniments that are sure to please.
 
-Tea service will be refreshed each hour. 
+Tea service will be refreshed each hour.
