@@ -1,8 +1,7 @@
 ---
 published: true
+title: Traditional Russian Tea Ceremony
 ---
-## Traditional russian tea ceremony
-
 ![tea.jpg]({{site.baseurl}}/img/tea.jpg)
 
 ENTRANCE FEE: $12.23 online OR $15+tax at the door.
