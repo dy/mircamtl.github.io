@@ -8,8 +8,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://rcemtl.github.io"
 twitter_username: jekyllrb
 github_username:  jekyll
+permalink: :title
 
 markdown: kramdown
 
 defaults:
     - {scope: {path: ""}, values: {layout: "post"}}
+
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://rcemtl.github.io'
+  media: 'img'
