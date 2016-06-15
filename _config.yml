@@ -25,4 +25,11 @@ prose:
     - name: "title"
       field:
         element: "text"
-        label: "title"
+        label: "Title"
+        type: "text"
+    - name: "image"
+        field:
+          element: "text"
+          label: "Image"
+          placeholder: "Image link"
+          type: "text"
