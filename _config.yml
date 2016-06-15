@@ -1,9 +1,7 @@
 title: Russian Cultural Exchange
 email: russianculturalexchange@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The Russian Cultural Exchange is a startup initiative that promotes Russian culture in Montreal. It works with local businesses from the Russian-speaking world to create a place where Russian speakers and enthusiasts can mingle, network and share information about the Russian world, its culture and history. Our mission is to create a centre to facilitate a deeper understanding of the various aspects of the past and present Russian world. All events are open to students of Russian language, native Russians-speakers, francophones, anglophones, and anyone else who is interested in learning something about the Russian world. It is not necessary to know how to speak Russian in order to participate in our events. Our events include: bi-monthly Russian conversation club for all levels; culinary events; Russian holiday celebrations; literature readings and film screenings; speaker series featuring scholars from McGill University, Concordia University, UdeM, and UQAM who specialize in various aspects of Russian arts, culture and history.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://rcemtl.github.io"
 twitter_username: jekyllrb
@@ -31,15 +29,8 @@ prose:
         field:
           element: "text"
           label: "Image"
-          help: "The image will be used as a background cover for the post. An easy way to upload the image is to drop it into post and then get it’s link."
+          help: "The image will be used as a background cover for the post. An easy way to upload the image is to drop it into the post and then copy-paste it’s link."
           placeholder: "img/my_image.jpg"
-          type: "url"
-      - name: "facebook"
-        field:
-          element: "text"
-          label: "Facebook url"
-          help: "Link to the facebook post. That will insert facebook post at the bottom of the page."
-          placeholder: "https://www.facebook.com/20531316728/posts/10154009990506729/"
           type: "url"
       - name: "comments"
         field:
@@ -47,3 +38,31 @@ prose:
           label: "Enable comments"
           help: "This will enable commentaries for the post"
           value: true
+      - name: "when"
+        field:
+          element: "text"
+          label: "When"
+          help: "The date of the event"
+          placeholder: "CURRENT_DATETIME"
+          type: "datetime"
+      - name: "where"
+        field:
+          element: "text"
+          label: "Where"
+          help: "The place of the event"
+          placeholder: "Name/address of the place"
+          type: "text"
+      - name: "facebook"
+        field:
+          element: "text"
+          label: "Facebook url"
+          help: "Link to the facebook post. That will insert facebook post at the bottom of the page."
+          placeholder: "https://www.facebook.com/20531316728/posts/10154009990506729/"
+          type: "url"
+      - name: "eventbrite"
+        field:
+          element: "text"
+          label: "Eventbrite url"
+          help: "Link to the eventbrite event. That will insert eventbrite widget at the bottom of the page."
+          placeholder: "https://www.eventbrite.ca/e/traditional-russian-tea-ceremony-tickets-25958220737"
+          type: "url"
