@@ -60,7 +60,7 @@ h6 {
 	font-weight: bold;
 	line-height: 1.2;
 	font-size: 2.2rem;
-	/*color: #159957;*/;
+	color: rgb(31, 35, 43);
 }
 
 @media screen and (min-width: 64em) {
@@ -145,6 +145,7 @@ h6 {
 	font-weight: normal;
 	margin-top: 0;
 	margin-bottom: 0rem;
+	color: white;
 }
 
 @media screen and (min-width: 64em) {
@@ -170,6 +171,7 @@ h6 {
 	font-weight: normal;
 	opacity: 0.7;
 	margin: 1rem 0 0;
+	color: rgba(255,255,255,1);
 }
 
 @media screen and (min-width: 64em) {
@@ -190,7 +192,7 @@ h6 {
 	};
 }
 
-.page-content:first-child {
+.page-content {
 	margin-top: 0;
 }
 
@@ -338,7 +340,7 @@ h6 {
 @media screen and (min-width: 64em) {
 	.page-content {
 		max-width: 64rem;
-		padding: 2.2rem 6.6rem;
+		padding: 0 6.6rem 2.2rem;
 		margin: 0 auto;
 		font-size: 1.1rem;
 	};
@@ -346,7 +348,7 @@ h6 {
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
 	.page-content {
-		padding: 2.2rem 4.4rem;
+		padding: 0 4.4rem 2.2rem;
 		font-size: 1.1rem;
 	};
 }
@@ -469,16 +471,34 @@ h6 {
 }
 
 
+.post-content {
+
+}
+
+
 .post-comments {
+}
+.post-comments .fb-comments {
 	display: block!important;
     margin-left: -7px;
     margin-right: -7px;
 }
-.post-comments > span {
+.post-comments .fb-comments > span {
 	display: block!important;
 	width: 100%!important;
 }
-.post-comments > span > iframe {
+.post-comments .fb-comments > span > iframe {
 	display: block;
 	width: 100%!important;
+}
+
+.post-place-map {
+	min-height: 50vh;
+	width: 100%;
+}
+@media (max-width: 42em) {
+	.post-place-map {
+		width: 100vw;
+		margin-left: -1rem;
+	}
 }

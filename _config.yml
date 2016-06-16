@@ -52,6 +52,7 @@ prose:
           help: "The place of the event"
           placeholder: "Name/address of the place"
           type: "text"
+          value: "Anticafé Montréal, 294, rue Sainte-Catherine Ouest, H2X 2A1, Montréal QC"
       - name: "facebook"
         field:
           element: "text"

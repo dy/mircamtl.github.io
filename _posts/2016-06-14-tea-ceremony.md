@@ -3,6 +3,7 @@ published: true
 title: Traditional Russian Tea Ceremony
 image: img/tea.jpg
 comments: true
+where: Anticafé Montréal
 ---
 ENTRANCE FEE: $12.23 online OR $15+tax at the door.
 

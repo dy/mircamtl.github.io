@@ -3,21 +3,53 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header" style="display: none">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
+	<header class="post-header" style="display: none">
+		<h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+		<p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+	</header>
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+	<div class="post-content" itemprop="articleBody">
+		{{ content }}
+	</div>
 
-  {% if page.comments %}
-  <div class="post-comments fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="5"></div>
-  {% endif %}
+	{% if page.where %}
+	<div id="where" class="post-place">
+		<h2 class="post-place-title">Where</h2>
+		<address class="post-place-address">
 
-  <footer class="post-footer">
-  	TODO: share buttons
-  </footer>
+		</address>
+
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaSKW0i_9_hZRnoLTAv-ayibnSURjTbIw&callback=initMap" type="text/javascript"></script>
+
+		<script>
+			function initMap() {
+				// Specify features and elements to define styles.
+				var styleArray = [{"featureType":"administrative","elementType":"all","stylers":[{"visibility":"on"},{"lightness":33}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2e5d4"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#c5dac6"}]},{"featureType":"poi.park","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":20}]},{"featureType":"road","elementType":"all","stylers":[{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#c5c6c6"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#e4d7c6"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#fbfaf7"}]},{"featureType":"water","elementType":"all","stylers":[{"visibility":"on"},{"color":"#acbcc9"}]}];
+
+				// Create a map object and specify the DOM element for display.
+				var map = new google.maps.Map(document.getElementById('map'), {
+					center: {lat: 45.5067194, lng: -73.56639889999997},
+					scrollwheel: false,
+					// Apply the map style array to the map.
+					styles: styleArray,
+					zoom: 14
+				});
+			}
+		</script>
+
+		<div id="map" class="post-place-map"></div>
+	</div>
+	{% endif %}
+
+	{% if page.comments %}
+	<div class="post-comments">
+		<h2 class="post-place-title">Comments</h2>
+		<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="5"></div>
+	</div>
+	{% endif %}
+
+	<footer class="post-footer">
+		TODO: share buttons
+	</footer>
 
 </article>
