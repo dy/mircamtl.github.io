@@ -37,7 +37,7 @@ prose:
           element: "checkbox"
           label: "Enable comments"
           help: "This will enable commentaries for the post"
-          value: true
+          value: false
       - name: "when"
         field:
           element: "text"
