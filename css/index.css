@@ -113,6 +113,24 @@ h6 {
 	}
 }
 
+.site-logo {
+	font-size: 1.2rem;
+    display: block;
+    margin-bottom: .5rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: none;
+}
+.site-logo:hover {
+	border: none;
+}
+.site-logo svg {
+	margin-bottom: -1rem;
+	width: 3rem;
+	height: 3rem;
+	fill: white;
+}
+
 .page-header {
 	color: #fff;
 	text-align: center;
@@ -343,8 +361,8 @@ h6 {
 }
 
 @media screen and (min-width: 64em) {
-	.page-content {
-		max-width: 64rem;
+	.content-centered {
+		/*max-width: 64rem;*/
 		padding: 0 6.6rem;
 		margin: 0 auto;
 		font-size: 1.1rem;
@@ -352,14 +370,14 @@ h6 {
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-	.page-content {
+	.content-centered {
 		padding: 0 4.4rem;
 		font-size: 1.1rem;
 	};
 }
 
 @media screen and (max-width: 42em) {
-	.page-content {
+	.content-centered {
 		padding: 0rem 0;
 		font-size: 1rem;
 	};
@@ -407,17 +425,19 @@ h6 {
 
 /** A bit custom styles */
 .form {
-	background: rgb(157, 166, 167);
-	color: white;
-	padding: 1rem 2rem;
-	text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background: rgb(243, 243, 243);
+    color: rgb(10, 10, 10);
+    padding: 2rem 2rem;
+    text-align: center;
 }
 .form-title {
 	margin: 0;
-	color: white;
+	color: black;
 }
 .form-tagline {
-	color: white;
+	color: black;
 	margin: 0;
 	font-size: 1rem;
 	font-weight: normal;
@@ -481,6 +501,33 @@ h6 {
 	font-family: sans-serif;
 	font-style: normal;
 }
+
+@media (max-width: 42rem) {
+	.post h1,
+	.post h2,
+	.post h3,
+	.post h4,
+	.post h5,
+	.post h6 {
+		text-align: center;
+		font-style: normal;
+	}
+
+	.post-title-ornament:before,
+	.post-title-ornament:after {
+		content:'∫';
+		color: lightgray;
+		position: absolute;
+		transform: rotate(85deg);
+		transform-origin: center;
+		margin-left: -1.75rem;
+	}
+	.post-title-ornament:after {
+		transform: rotate(95deg) scaleX(-1);
+		margin-left: 1.5rem;
+	}
+}
+
 
 
 .post-content {

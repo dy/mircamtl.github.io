@@ -17,15 +17,19 @@
 		{% include header.html %}
 
 		<section class="page-header" style="background-image: url({{ page.image | default: '/img/hermitage.jpg' }});">
+			<a href="/" class="site-logo">🍁</a>
+			<!-- <a href="/" class="site-logo">{% include moscow.svg %}</a> -->
 			<h1 class="page-title">{{ page.title | default: site.title }}</h1>
 			<h2 class="page-tagline">in Montreal</h2>
 		</section>
 
-		<section class="page-content">
+		<section class="page-content content-centered">
 			{{ content }}
-
-			{% include footer.html %}
 		</section>
+
+		{% include form.html %}
+
+		{% include footer.html %}
 	</body>
 
 </html>
