@@ -1,7 +1,7 @@
 ---
 comments: true
 where: 'Anticafé Montréal, 294, rue Sainte-Catherine Ouest, H2X 2A1, Montréal QC'
-published: false
+published: true
 title: Russian Film Screening Series
 image: img/film.png
 ---
