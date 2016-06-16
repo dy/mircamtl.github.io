@@ -467,3 +467,18 @@ h6 {
 	font-family: sans-serif;
 	font-style: normal;
 }
+
+
+.post-comments {
+	display: block!important;
+    margin-left: -7px;
+    margin-right: -7px;
+}
+.post-comments > span {
+	display: block!important;
+	width: 100%!important;
+}
+.post-comments > span > iframe {
+	display: block;
+	width: 100%!important;
+}
