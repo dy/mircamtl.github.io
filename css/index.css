@@ -2,27 +2,30 @@
 	box-sizing: border-box;
 }
 
+html {
+	border-bottom: .2rem solid rgb(235, 0, 0);
+}
+
 body {
 	padding: 0;
 	margin: 0;
 	font-size: 16px;
 	font-weight: lighter;
 	line-height: 1.5;
-	color: #606c71;
+	color: black;
 	font-family: 'Open Sans', sans-serif;
-	border-top: .45rem solid rgb(50, 89, 169);
-	border-bottom: .45rem solid rgb(188, 0, 0);
+	border-bottom: .2rem solid rgb(64, 128, 255);
 }
 
 a {
-	color: rgb(39, 42, 57);
+	color: rgb(235, 0, 0);
 	text-decoration: none;
-	border-bottom: .1rem solid rgba(39, 42, 57, .15);
+	border-bottom: .1rem solid rgba(235, 0, 0, .15);
 }
 
 a:hover {
 	text-decoration: none;
-	border-bottom: .1rem solid rgb(39, 42, 57);
+	border-bottom: .1rem solid rgb(235, 0, 0);
 }
 
 .button {
@@ -367,16 +370,12 @@ h6 {
 	text-align: center;
 }
 
-.site-footer-owner {
-	display: block;
-	font-weight: bold;
+.site-footer-link {
+	color: rgb(0, 0, 0);
+	border-color: rgba(0, 0, 0, .15);
 }
-
-.site-footer-credits {
-	color: #819198;
-}
-.site-footer-credits:hover {
-	border-color: #819198;
+.site-footer-link:hover {
+	border-color: rgba(0, 0, 0, 1);
 }
 
 @media screen and (min-width: 64em) {
@@ -444,7 +443,7 @@ h6 {
 .post {
 	margin: 0;
 	padding: 2rem 1rem 2.5rem;
-	border-bottom: .1rem dotted rgba(39, 42, 57, .15);
+	border-bottom: .1rem dotted rgba(0, 0, 0, .15);
 }
 .post-title {
 	margin: 0 0 1rem;
@@ -453,6 +452,14 @@ h6 {
 	font-style: italic;
 	font-size: 1.8rem;
 	line-height: 1.4;
+	color: black;
+}
+.post-title-link {
+	color: rgb(0, 0, 0);
+	border-color: rgba(0, 0, 0, .15);
+}
+.post-title-link:hover {
+	border-color: rgba(0, 0, 0, 1);
 }
 .post-meta {
 	margin-top: .75rem;
