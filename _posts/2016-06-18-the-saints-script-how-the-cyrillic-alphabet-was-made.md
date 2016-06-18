@@ -1,7 +1,7 @@
 ---
 comments: false
 where: 'Anticafé Montréal, 294, rue Sainte-Catherine Ouest, H2X 2A1, Montréal QC'
-published: false
+published: true
 title: 'The Saints'' Script: How the Cyrillic Alphabet was Made'
 image: img/cyr.jpg
 ---
