@@ -3,9 +3,10 @@
 }
 
 html {
-	border-bottom: .2rem solid rgb(235, 0, 0);
+	border: .25rem solid rgb(242, 108, 79);
 }
-
+/* rgb(156, 196, 228) */
+/* rgb(233, 242, 249) */
 body {
 	padding: 0;
 	margin: 0;
@@ -13,8 +14,12 @@ body {
 	font-weight: lighter;
 	line-height: 1.5;
 	color: black;
-	font-family: 'Open Sans', sans-serif;
-	border-bottom: .2rem solid rgb(64, 128, 255);
+	font-family: 'PT Serif', serif;
+	border: .25rem solid rgb(58, 137, 201);
+}
+.page-header {
+	border: .25rem solid rgb(255, 255, 255);
+	border-bottom: none;
 }
 
 a {
@@ -49,6 +54,10 @@ a:hover {
 	text-decoration: none;
 	background-color: rgba(255, 255, 255, 0.2);
 	border-color: rgba(255, 255, 255, 0.3);
+}
+
+img {
+	max-width: 100%;
 }
 
 
@@ -222,13 +231,9 @@ figure {
 }
 
 .page-content {
+	overflow: hidden;
 	margin-top: 0;
 }
-
-.page-content img {
-	max-width: 100%;
-}
-
 
 .page-content p {
 	margin-bottom: 1em;
@@ -372,7 +377,7 @@ figure {
 		padding-left: 6.6rem;
 		padding-right: 6.6rem;
 		margin: 0 auto;
-		font-size: 1.1rem;
+		font-size: 1.13rem;
 	};
 }
 
@@ -380,7 +385,7 @@ figure {
 	.content-centered {
 		padding-left: 4.4rem;
 		padding-right: 4.4rem;
-		font-size: 1.1rem;
+		font-size: 1.13rem;
 	};
 }
 
@@ -471,18 +476,32 @@ figure {
 }
 
 .post {
+	position: relative;
 	margin: 0;
-	padding: 2rem 1rem 2.5rem;
-	border-bottom: .1rem dotted rgba(0, 0, 0, .15);
+	padding: 3rem 1rem 3rem;
+	/*border-bottom: .1rem dotted rgba(0, 0, 0, .15);*/
+}
+.post:after {
+	content: '';
+	position: absolute;
+	bottom: -.5rem;
+	left: -.75rem;
+	width: 23.75%;
+	height: .25rem;
+	background: rgb(243, 242, 242);
+	/*background: url('../img/border.png') repeat-x left center;*/
 }
 .post-title {
 	margin: 0 0 1rem;
-	font-family: 'Playfair Display', serif;
-	letter-spacing: .02ex;
-	font-style: italic;
-	font-size: 1.8rem;
-	line-height: 1.4;
+	font-family: 'Helvetica', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+    font-size: 1.5rem;
 	color: black;
+	z-index: 1;
+	width: 80%;
+    line-height: 1.5;
+    letter-spacing: -.05ex;
 }
 .post-title-link {
 	color: rgb(0, 0, 0);
@@ -491,10 +510,61 @@ figure {
 .post-title-link:hover {
 	border-color: rgba(0, 0, 0, 1);
 }
+.post-date {
+	margin-top: -.5rem;
+	margin-left: -5rem;
+	float: left;
+	text-align: center;
+}
+.post-date-day {
+	font-size: 4rem;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	letter-spacing: -.13ex;
+}
+.post-date-month {
+	font-family: sans-serif;
+	font-size: 1.03rem;
+	margin-top: -.36rem;
+	margin-right: .15rem;
+	letter-spacing: -.02ex;
+}
+.post-content {
+	width: 50%;
+}
+.post-preview {
+	position: absolute;
+	z-index: 0;
+	left: 50%;
+	height: calc(100% - 5rem);
+	/*margin-top: .25rem;*/
+}
+.post-preview-link {
+	display: block;
+	height: 100%;
+	width: 100%;
+	border: none!important;
+}
+.post-image {
+	display: block;
+	min-height: 73%;
+	max-height: 100%;
+	max-width: none;
+}
 .post-meta {
-	margin-top: .75rem;
-	font-size: .9rem;
-	color: rgb(169, 176, 179);
+	margin-top: 1.5rem;
+	font-size: .75rem;
+	text-transform: uppercase;
+	letter-spacing: .5ex;
+	color: rgb(220,220,220);
+}
+.post-excerpt {
+	margin-right: -.75rem;
+	padding-right: 1.5rem;
+	display: block;
+	background: rgba(255,255,255,1);
+	position: relative;
+	z-index: 1;
 }
 .post-excerpt p,
 .post-excerpt * {
