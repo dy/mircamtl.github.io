@@ -113,6 +113,10 @@ h6 {
 	}
 }
 
+figure {
+	margin: 0;
+}
+
 .site-logo {
 	font-size: 1.2rem;
     display: block;
@@ -158,10 +162,6 @@ h6 {
 	.page-header {
 		padding-top: 2rem;
 		padding-bottom: 2rem;
-	}
-	figure {
-		margin-left: 0;
-		margin-right: 0;
 	}
 }
 
