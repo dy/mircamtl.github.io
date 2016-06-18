@@ -4,6 +4,7 @@ where: 'Anticafé Montréal, 294, rue Sainte-Catherine Ouest, H2X 2A1, Montréal
 published: true
 title: 'The Saints'' Script: How the Cyrillic Alphabet was Made'
 image: img/cyr.jpg
+when: '2016-06-18 02:08 -0400'
 ---
 Vladimir Ivantsov, doctoral canditate of Russian Studies at McGill University, will talk on the origins of the Cyrillic script, on which the modern alphabets of many Slavic (and several non-Slavic) languages are based (Belarusian, Bulgarian, Russian, Serbo-Croatian and others). 
 
