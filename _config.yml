@@ -45,7 +45,8 @@ prose:
           label: "When"
           help: "The date of the event"
           placeholder: "YYYY-MM-DD HH:MM"
-          type: "CURRENT_DATETIME"
+          type: "datetime"
+          value: "CURRENT_DATETIME"
       - name: "where"
         field:
           element: "text"
