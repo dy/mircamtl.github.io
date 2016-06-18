@@ -30,8 +30,8 @@ prose:
         field:
           element: "text"
           label: "Image"
-          help: "The image will be used as a background cover for the post. An easy way to upload the image is to drop it into the post and then copy-paste it’s link."
-          placeholder: "img/my_image.jpg"
+          help: "The image will be used as a background cover for the post. Can be absolute or relative URL."
+          placeholder: "img/cover.jpg"
           type: "url"
       - name: "comments"
         field:
@@ -44,8 +44,8 @@ prose:
           element: "text"
           label: "When"
           help: "The date of the event"
-          placeholder: CURRENT_DATETIME
-          type: "datetime"
+          placeholder: "YYYY-MM-DD HH:MM"
+          type: "CURRENT_DATETIME"
       - name: "where"
         field:
           element: "text"
