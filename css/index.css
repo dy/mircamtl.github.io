@@ -133,7 +133,7 @@ h6 {
 
 .page-header {
 	color: #fff;
-	text-align: center;
+	text-align: left;
 	background-color: #159957;
 	background-image: linear-gradient(120deg, #155799, #159957);
 	background-size: cover;
@@ -142,19 +142,22 @@ h6 {
 
 @media screen and (min-width: 64em) {
 	.page-header {
-		padding: 5rem 6rem;
+		padding-top: 5rem;
+		padding-bottom: 5rem;
 	}
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
 	.page-header {
-		padding: 3rem 4rem;
+		padding-top: 3rem;
+		padding-bottom: 3rem;
 	}
 }
 
 @media screen and (max-width: 42em) {
 	.page-header {
-		padding: 2rem 1rem;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
 	}
 	figure {
 		margin-left: 0;
@@ -164,22 +167,24 @@ h6 {
 
 .page-title {
 	font-family: 'Playfair Display', serif;
-	font-style: italic;
+	font-style: normal;
+	letter-spacing: .15ex;
 	font-weight: normal;
-	margin-top: 0;
+	margin-top: -.75rem;
 	margin-bottom: 0rem;
 	color: white;
+	margin-left: 1rem;
 }
 
 @media screen and (min-width: 64em) {
 	.page-title {
-		font-size: 4.4rem;
+		font-size: 3.3rem;
 	}
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
 	.page-title {
-		font-size: 4.4rem;
+		font-size: 3.3rem;
 	}
 }
 
@@ -192,9 +197,10 @@ h6 {
 .page-tagline {
 	font-family: 'Playfair Display', serif;
 	font-weight: normal;
-	opacity: 0.7;
-	margin: 1rem 0 0;
-	color: rgba(255,255,255,1);
+	opacity: 1;
+	margin: 0rem 0 0;
+	margin-left: 1rem;
+	color: rgba(220,220,220,1);
 }
 
 @media screen and (min-width: 64em) {
@@ -362,8 +368,9 @@ h6 {
 
 @media screen and (min-width: 64em) {
 	.content-centered {
-		/*max-width: 64rem;*/
-		padding: 0 6.6rem;
+		max-width: 64rem;
+		padding-left: 6.6rem;
+		padding-right: 6.6rem;
 		margin: 0 auto;
 		font-size: 1.1rem;
 	};
@@ -371,14 +378,16 @@ h6 {
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
 	.content-centered {
-		padding: 0 4.4rem;
+		padding-left: 4.4rem;
+		padding-right: 4.4rem;
 		font-size: 1.1rem;
 	};
 }
 
 @media screen and (max-width: 42em) {
 	.content-centered {
-		padding: 0rem 0;
+		padding-left:0;
+		padding-right:0;
 		font-size: 1rem;
 	};
 }
@@ -389,6 +398,7 @@ h6 {
 }
 
 .site-footer-link {
+	font-weight: bolder;
 	color: rgb(0, 0, 0);
 	border-color: rgba(0, 0, 0, .15);
 }
@@ -426,7 +436,7 @@ h6 {
 /** A bit custom styles */
 .form {
     margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     background: rgb(243, 243, 243);
     color: rgb(10, 10, 10);
     padding: 2rem 2rem;
@@ -561,4 +571,10 @@ h6 {
 		pointer-events: none;
 		margin-left: -1rem;
 	}
+}
+
+
+.site-footer-twitter {
+	width: 50%;
+	max-height: 40rem;
 }
