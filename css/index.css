@@ -3,7 +3,7 @@
 }
 
 html {
-	border: .25rem solid rgb(242, 108, 79);
+	border-bottom: .25rem solid rgb(242, 108, 79);
 }
 /* rgb(156, 196, 228) */
 /* rgb(233, 242, 249) */
@@ -15,11 +15,11 @@ body {
 	line-height: 1.5;
 	color: black;
 	font-family: 'PT Serif', serif;
-	border: .25rem solid rgb(58, 137, 201);
+	border-bottom: .25rem solid rgb(58, 137, 201);
 }
 .page-header {
-	border: .25rem solid rgb(255, 255, 255);
-	border-bottom: none;
+	/*border: .25rem solid rgb(255, 255, 255);*/
+	/*border-bottom: none;*/
 }
 
 a {
