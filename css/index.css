@@ -493,13 +493,11 @@ figure {
 }
 .post-title {
 	margin: 0 0 1rem;
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Helvetica Black', 'Arial Black', sans-serif;
 	font-style: normal;
 	font-weight: 900;
     font-size: 1.5rem;
 	color: black;
-	z-index: 1;
-	width: 80%;
     line-height: 1.5;
     letter-spacing: -.05ex;
 }
@@ -510,46 +508,8 @@ figure {
 .post-title-link:hover {
 	border-color: rgba(0, 0, 0, 1);
 }
-.post-date {
-	margin-top: -.5rem;
-	margin-left: -5rem;
-	float: left;
-	text-align: center;
-}
-.post-date-day {
-	font-size: 4rem;
-	font-family: 'Playfair Display', serif;
-	font-weight: bold;
-	letter-spacing: -.13ex;
-}
-.post-date-month {
-	font-family: sans-serif;
-	font-size: 1.03rem;
-	margin-top: -.36rem;
-	margin-right: .15rem;
-	letter-spacing: -.02ex;
-}
-.post-content {
-	width: 50%;
-}
-.post-preview {
-	position: absolute;
-	z-index: 0;
-	left: 50%;
-	height: calc(100% - 5rem);
-	/*margin-top: .25rem;*/
-}
 .post-preview-link {
-	display: block;
-	height: 100%;
-	width: 100%;
 	border: none!important;
-}
-.post-image {
-	display: block;
-	min-height: 73%;
-	max-height: 100%;
-	max-width: none;
 }
 .post-meta {
 	margin-top: 1.5rem;
@@ -559,8 +519,6 @@ figure {
 	color: rgb(220,220,220);
 }
 .post-excerpt {
-	margin-right: -.75rem;
-	padding-right: 1.5rem;
 	display: block;
 	background: rgba(255,255,255,1);
 	position: relative;
@@ -606,8 +564,63 @@ figure {
 		transform: rotate(95deg) scaleX(-1);
 		margin-left: 1.5rem;
 	}
+	.post-date {
+		text-align: center;
+	}
 }
 
+@media (min-width: 42rem) {
+	.post-title {
+		z-index: 1;
+		width: 80%;
+	}
+
+	.post-date {
+		margin-top: -.5rem;
+		margin-left: -5rem;
+		float: left;
+		text-align: right;
+	}
+	.post-date-day {
+		font-size: 4rem;
+		font-family: 'Playfair Display', serif;
+		font-weight: bold;
+		letter-spacing: 0;
+	}
+	.post-date-month {
+		font-family: sans-serif;
+		font-size: 1.1rem;
+		margin-top: -.36rem;
+		margin-right: .15rem;
+		letter-spacing: -.02ex;
+		margin-right: .03ex;
+	}
+	.post-content {
+		width: 50%;
+	}
+	.post-preview {
+		position: absolute;
+		z-index: 0;
+		left: 50%;
+		height: calc(100% - 5rem);
+		/*margin-top: .25rem;*/
+	}
+	.post-preview-link {
+		display: block;
+		height: 100%;
+		width: 100%;
+	}
+	.post-image {
+		display: block;
+		min-height: 73%;
+		max-height: 100%;
+		max-width: none;
+	}
+	.post-excerpt {
+		margin-right: -.75rem;
+		padding-right: 1.5rem;
+	}
+}
 
 
 .post-content {
