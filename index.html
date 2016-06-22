@@ -14,15 +14,15 @@ layout: default
 			</figure>
 		{% endif %}
 		<div class="post-content">
-			<h2 class="post-title">
-				<a class="post-title-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			</h2>
 			{% if post.when %}
 				<time class="post-date">
 					<div class="post-date-day">{{ post.when | date: '%d' }}</div>
 					<div class="post-date-month">{{ post.when | date: '%B' }}</div>
 				</time>
 			{% endif %}
+			<h2 class="post-title">
+				<a class="post-title-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</h2>
 			<div class="post-excerpt">
 				{{ post.excerpt }}
 			</div>

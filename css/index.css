@@ -67,7 +67,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Playfair Display', serif;
+	font-family: 'PT Sans Narrow', sans-serif;
 	margin-top: 2rem;
 	font-style: italic;
 	margin-bottom: 1rem;
@@ -175,10 +175,10 @@ figure {
 }
 
 .page-title {
-	font-family: 'Playfair Display', serif;
+	font-family: 'PT Sans Narrow', sans-serif;
 	font-style: normal;
 	letter-spacing: .15ex;
-	font-weight: normal;
+	font-weight: 700;
 	margin-top: -.75rem;
 	margin-bottom: 0rem;
 	color: white;
@@ -204,7 +204,7 @@ figure {
 }
 
 .page-tagline {
-	font-family: 'Playfair Display', serif;
+	font-family: 'PT Serif', serif;
 	font-weight: normal;
 	opacity: 1;
 	margin: 0rem 0 0;
@@ -493,13 +493,13 @@ figure {
 }
 .post-title {
 	margin: 0 0 1rem;
-	font-family: 'Helvetica Black', 'Arial Black', sans-serif;
+	font-family: 'PT Sans Narrow', sans-serif;
 	font-style: normal;
-	font-weight: 900;
-    font-size: 1.5rem;
+	font-weight: 700;
+    font-size: 1.666rem;
 	color: black;
-    line-height: 1.5;
-    letter-spacing: -.05ex;
+    line-height: 2.4rem;
+    letter-spacing: .02ex;
 }
 .post-title-link {
 	color: rgb(0, 0, 0);
@@ -536,7 +536,6 @@ figure {
 .post-excerpt h5,
 .post-excerpt h6 {
 	font-size: 1.4rem;
-	font-family: sans-serif;
 	font-style: normal;
 }
 
@@ -576,24 +575,23 @@ figure {
 	}
 
 	.post-date {
-		margin-top: -.5rem;
+		margin-top: -.666rem;
 		margin-left: -5rem;
 		float: left;
 		text-align: right;
 	}
 	.post-date-day {
-		font-size: 4rem;
-		font-family: 'Playfair Display', serif;
-		font-weight: bold;
-		letter-spacing: 0;
+		font-size: 3.666rem;
+		font-family: 'PT Serif', serif;
+		font-weight: 400;
+		letter-spacing: -.08ex;
 	}
 	.post-date-month {
-		font-family: sans-serif;
-		font-size: 1.1rem;
+		font-family: 'PT Sans Narrow', sans-serif;
+		font-size: 1.13rem;
 		margin-top: -.36rem;
-		margin-right: .15rem;
 		letter-spacing: -.02ex;
-		margin-right: .03ex;
+		margin-right: .45rem;
 	}
 	.post-content {
 		width: 50%;
