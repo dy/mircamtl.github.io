@@ -69,7 +69,7 @@ h5,
 h6 {
 	font-family: 'PT Sans Narrow', sans-serif;
 	margin-top: 2rem;
-	font-style: italic;
+	letter-spacing: .02ex;
 	margin-bottom: 1rem;
 	font-weight: bold;
 	line-height: 1.2;
@@ -411,22 +411,36 @@ figure {
 	border-color: rgba(0, 0, 0, 1);
 }
 
+.site-footer-column {
+	width: 50%;
+	float: left;
+	max-height: 40rem;
+}
+.site-footer-credits {
+	clear: both;
+}
+
 @media screen and (min-width: 64em) {
 	.site-footer {
 		font-size: 1rem;
-	};
+	}
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
 	.site-footer {
 		font-size: 1rem;
-	};
+	}
 }
 
 @media screen and (max-width: 42em) {
 	.site-footer {
 		font-size: 0.9rem;
-	};
+	}
+
+	.site-footer-twitter {
+		width: 100%;
+		max-height: 40rem;
+	}
 }
 
 
@@ -491,6 +505,9 @@ figure {
 	background: rgb(243, 242, 242);
 	/*background: url('../img/border.png') repeat-x left center;*/
 }
+.post-content {
+	position: relative;
+}
 .post-title {
 	margin: 0 0 1rem;
 	font-family: 'PT Sans Narrow', sans-serif;
@@ -546,8 +563,12 @@ figure {
 	.post h4,
 	.post h5,
 	.post h6 {
-		text-align: center;
+		text-align: left;
 		font-style: normal;
+	}
+
+	.post-title {
+		margin-top: 1rem;
 	}
 
 	.post-title-ornament:before,
@@ -564,7 +585,26 @@ figure {
 		margin-left: 1.5rem;
 	}
 	.post-date {
+		position: absolute;
+		top: -3rem;
+		font-size: 1.1rem;
+		left: 0;
+		max-width: 6rem;
 		text-align: center;
+		margin: auto;
+		border-radius: 1rem;
+		right: 0;
+		background: linear-gradient(to top, rgb(255, 255, 255) 54%, rgba(255,255,255,0));
+		height: 3.2rem;
+		line-height: 2.6rem;
+		padding: 0 1rem;
+		z-index: 999;
+	}
+	.post-date-day {
+		display: inline-block;
+	}
+	.post-date-month {
+		display: inline-block;
 	}
 }
 
@@ -621,10 +661,6 @@ figure {
 }
 
 
-.post-content {
-
-}
-
 
 .post-comments {
 }
@@ -652,10 +688,4 @@ figure {
 		pointer-events: none;
 		margin-left: -1rem;
 	}
-}
-
-
-.site-footer-twitter {
-	width: 50%;
-	max-height: 40rem;
 }
