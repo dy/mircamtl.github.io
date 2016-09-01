@@ -12,6 +12,27 @@ layout: default
 		{{ content }}
 	</div>
 
+	<hr/>
+
+	{% if page.related %}
+	<div class="post-related">
+		<h2 class="post-related-title">Related</h2>
+
+		{% for item in page.related %}
+			{% for post in site.posts %}
+				{% if post.slug == item %}
+				<div class="post-related-item">
+				<h3 class="post-related-item-title">{{ post.title }}</h3>
+				<div class="post-related-item-tagline">{{ post.excerpt|truncate: 120, '...' }}</div>
+				</div>
+				{% endif %}
+			{% endfor %}
+		{% endfor %}
+	</div>
+	{% endif %}
+
+	<hr/>
+
 	{% if page.where %}
 	<div id="where" class="post-place">
 		<h2 class="post-place-title post-title-ornament">Where</h2>

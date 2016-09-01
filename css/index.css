@@ -385,10 +385,12 @@ figure {
 	margin-bottom: 1rem;
 }
 
-.page-content hr {
+hr {
+	clear: both;
+	display: block;
 	height: 2px;
 	padding: 0;
-	margin: 1rem 0;
+	margin: 2rem 0;
 	background-color: #eff0f1;
 	border: 0;
 }
@@ -730,6 +732,19 @@ figure {
 }
 
 
+.post-related {
+	padding-bottom: 3rem;
+}
+.post-related-item {
+	float: left;
+	padding-right: 1rem;
+	width: 33.33%;
+}
+.post-related-item-title {
+	font-size: 1.5rem;
+}
+
+
 
 .post-comments {
 }
@@ -747,6 +762,9 @@ figure {
 	width: 100%!important;
 }
 
+.post-place {
+	clear: both;
+}
 .post-place-map {
 	min-height: 50vh;
 	width: 100%;
