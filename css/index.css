@@ -133,6 +133,10 @@ figure {
     color: rgb(255, 255, 255);
     text-decoration: none;
     border: none;
+    width: 5rem;
+    max-width: none;
+    margin-left: -5rem;
+    margin-top: 2rem;
 }
 .site-logo:hover {
 	border: none;
@@ -143,6 +147,20 @@ figure {
 	height: 3rem;
 	fill: white;
 }
+.site-logo-text{
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: white;
+	font-weight: bold;
+	margin-left: 2rem;
+	line-height: 1;
+
+}
+
+.site-header {
+	left: 0;
+	right: 0;
+	position: absolute;
+}
 
 .page-header {
 	color: #fff;
@@ -151,25 +169,29 @@ figure {
 	background-image: linear-gradient(120deg, #155799, #159957);
 	background-size: cover;
 	background-position: center;
+	padding-top: 8rem;
+	padding-bottom: 5rem;
+	border-bottom: 3px solid rgb(213, 43, 5);
 }
 
 @media screen and (min-width: 64em) {
 	.page-header {
-		padding-top: 5rem;
-		padding-bottom: 5rem;
+
 	}
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
 	.page-header {
-		padding-top: 3rem;
-		padding-bottom: 3rem;
+
 	}
 }
 
 @media screen and (max-width: 42em) {
+	.site-logo {
+		margin-left: 1rem;
+	}
 	.page-header {
-		padding-top: 2rem;
+		padding-top: 9rem;
 		padding-bottom: 2rem;
 	}
 }
@@ -177,7 +199,7 @@ figure {
 .page-title {
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-style: normal;
-	letter-spacing: .15ex;
+	/*letter-spacing: .15ex;*/
 	font-weight: 700;
 	margin-top: -.75rem;
 	margin-bottom: 0rem;
@@ -209,7 +231,7 @@ figure {
 	opacity: 1;
 	margin: 0rem 0 0;
 	margin-left: 1rem;
-	color: rgba(220,220,220,1);
+	color: rgba(255,255,255,.75);
 }
 
 @media screen and (min-width: 64em) {
@@ -505,10 +527,36 @@ figure {
 	background: rgb(243, 242, 242);
 	/*background: url('../img/border.png') repeat-x left center;*/
 }
-.post-content {
-	position: relative;
+
+@media (max-width: 42em) {
+	.post {
+		padding: 1rem 1rem;
+	}
 }
-.post-title {
+
+
+.post-item {
+	position: relative;
+	margin: 0;
+	padding: 3rem 1rem 3rem;
+	/*border-bottom: .1rem dotted rgba(0, 0, 0, .15);*/
+}
+.post-item:after {
+	content: '';
+	position: absolute;
+	bottom: -.5rem;
+	left: -.75rem;
+	width: 23.75%;
+	height: .25rem;
+	background: rgb(243, 242, 242);
+	/*background: url('../img/border.png') repeat-x left center;*/
+}
+.post-item-content {
+	position: relative;
+	width: 50%;
+}
+
+.post-item-title {
 	margin: 0 0 1rem;
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-style: normal;
@@ -518,61 +566,86 @@ figure {
     line-height: 2.4rem;
     letter-spacing: .02ex;
 }
-.post-title-link {
+.post-item-title-link {
 	color: rgb(0, 0, 0);
 	border-color: rgba(0, 0, 0, .15);
 }
-.post-title-link:hover {
+.post-item-title-link:hover {
 	border-color: rgba(0, 0, 0, 1);
 }
-.post-preview-link {
+.post-item-preview-link {
 	border: none!important;
 }
-.post-meta {
+.post-item-preview img {
+	max-height: 100%;
+}
+.post-item-meta {
 	margin-top: 1.5rem;
 	font-size: .75rem;
 	text-transform: uppercase;
 	letter-spacing: .5ex;
 	color: rgb(220,220,220);
 }
-.post-excerpt {
+.post-item-excerpt {
 	display: block;
-	background: rgba(255,255,255,1);
+	/*background-color: rgba(255,255,255,1);*/
+	background-image: linear-gradient(to right, rgba(255,255,255,1) 95%, rgba(255,255,255,.9) 103%);
 	position: relative;
 	z-index: 1;
 }
-.post-excerpt p,
-.post-excerpt * {
+.post-item-excerpt p,
+.post-item-excerpt * {
 	margin: 0;
 }
 
-.post-excerpt h1,
-.post-excerpt h2,
-.post-excerpt h3,
-.post-excerpt h4,
-.post-excerpt h5,
-.post-excerpt h6 {
+.post-item-excerpt h1,
+.post-item-excerpt h2,
+.post-item-excerpt h3,
+.post-item-excerpt h4,
+.post-item-excerpt h5,
+.post-item-excerpt h6 {
 	font-size: 1.4rem;
 	font-style: normal;
 }
 
+.post-item-button {
+	display: inline-block;
+	margin-top: 1rem;
+	padding: .5rem 1rem;
+	text-transform: uppercase;
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: white;
+	font-size: .8rem;
+	background: rgb(213, 43, 5);
+	letter-spacing: .5ex;
+	border: none;
+}
+.post-item-button:hover {
+	background: rgb(254, 123, 24);
+	border: none;
+}
+
 @media (max-width: 42rem) {
-	.post h1,
-	.post h2,
-	.post h3,
-	.post h4,
-	.post h5,
-	.post h6 {
+	.post-item h1,
+	.post-item h2,
+	.post-item h3,
+	.post-item h4,
+	.post-item h5,
+	.post-item h6 {
 		text-align: left;
 		font-style: normal;
 	}
 
-	.post-title {
+	.post-item-content {
+		width: auto;
+	}
+
+	.post-item-title {
 		margin-top: 1rem;
 	}
 
-	.post-title-ornament:before,
-	.post-title-ornament:after {
+	.post-item-title-ornament:before,
+	.post-item-title-ornament:after {
 		content:'∫';
 		color: lightgray;
 		position: absolute;
@@ -580,81 +653,77 @@ figure {
 		transform-origin: center;
 		margin-left: -1.75rem;
 	}
-	.post-title-ornament:after {
+	.post-item-title-ornament:after {
 		transform: rotate(95deg) scaleX(-1);
 		margin-left: 1.5rem;
 	}
-	.post-date {
+	.post-item-date {
 		position: absolute;
 		top: -3rem;
-		font-size: 1.1rem;
+		font-size: 1rem;
 		left: 0;
 		max-width: 6rem;
 		text-align: center;
 		margin: auto;
-		border-radius: 1rem;
-		right: 0;
-		background: linear-gradient(to top, rgb(255, 255, 255) 54%, rgba(255,255,255,0));
+		background: white;
 		height: 3.2rem;
 		line-height: 2.6rem;
-		padding: 0 1rem;
+		padding: 0 1rem 0 0;
 		z-index: 999;
 	}
-	.post-date-day {
+	.post-item-date-day {
 		display: inline-block;
 	}
-	.post-date-month {
+	.post-item-date-month {
 		display: inline-block;
 	}
 }
 
 @media (min-width: 42rem) {
-	.post-title {
+	.post-item-title {
 		z-index: 1;
 		width: 80%;
 	}
 
-	.post-date {
+	.post-item-date {
 		margin-top: -.666rem;
 		margin-left: -5rem;
 		float: left;
 		text-align: right;
 	}
-	.post-date-day {
-		font-size: 3.666rem;
+	.post-item-date-day {
+		font-size: 2.666rem;
 		font-family: 'PT Serif', serif;
-		font-weight: 400;
+		font-weight: 900;
+		margin-top: .25rem;
 		letter-spacing: -.08ex;
 	}
-	.post-date-month {
+	.post-item-date-month {
 		font-family: 'PT Sans Narrow', sans-serif;
 		font-size: 1.13rem;
 		margin-top: -.36rem;
 		letter-spacing: -.02ex;
 		margin-right: .45rem;
 	}
-	.post-content {
-		width: 50%;
-	}
-	.post-preview {
+	.post-item-preview {
 		position: absolute;
 		z-index: 0;
 		left: 50%;
 		height: calc(100% - 5rem);
 		/*margin-top: .25rem;*/
 	}
-	.post-preview-link {
+	.post-item-preview-link {
 		display: block;
 		height: 100%;
 		width: 100%;
 	}
-	.post-image {
+	.post-item-image {
 		display: block;
 		min-height: 73%;
 		max-height: 100%;
 		max-width: none;
 	}
-	.post-excerpt {
+	.post-item-excerpt {
 		margin-right: -.75rem;
 		padding-right: 1.5rem;
 	}
