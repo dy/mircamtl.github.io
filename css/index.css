@@ -424,12 +424,12 @@ hr {
 }
 
 .site-footer-link {
+	display: inline-block;
+	position: relative;
 	font-weight: bolder;
-	color: rgb(0, 0, 0);
-	border-color: rgba(0, 0, 0, .15);
+	text-decoration: none;
 }
 .site-footer-link:hover {
-	border-color: rgba(0, 0, 0, 1);
 }
 
 .site-footer-column {
