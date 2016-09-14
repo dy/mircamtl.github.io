@@ -13,6 +13,7 @@ layout: default
 	</section>
 
 	{% if page.related %}
+	<hr/>
 	<section class="post-related">
 		<h2 class="post-related-title">Related</h2>
 
@@ -27,10 +28,10 @@ layout: default
 			{% endfor %}
 		{% endfor %}
 	</section>
-	<hr/>
 	{% endif %}
 
 	{% if page.where %}
+	<hr/>
 	<section id="where" class="post-place">
 		<h2 class="post-place-title post-title-ornament">Where</h2>
 		<address class="post-place-address">
@@ -60,6 +61,7 @@ layout: default
 	{% endif %}
 
 	{% if page.comments %}
+	<hr/>
 	<section class="post-comments">
 		<h2 class="post-place-title post-title-ornament">Comments</h2>
 		{% comment %}
