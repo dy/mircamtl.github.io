@@ -3,7 +3,7 @@ comments: true
 published: true
 title: Mirca logo contest
 ---
-We are looking for a logo which will the most completely reflect our mission and our values. The logo which we will be proud to use and which will be recognizable.
+We are looking to recruit some talented, innovative graphic designers to participate in a logo contest! We will choose the logo that we believe best reflects our mission and our values. Below are some of the works in progress. The winning designer will receive 6 free passes to MIRCA events held at Anticafe Montréal.
 
 <style>
 .loggos {
