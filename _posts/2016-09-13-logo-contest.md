@@ -2,8 +2,6 @@
 comments: true
 published: true
 title: Mirca logo contest
-when: '2016-09-13 23:25 -0400'
-where: 'Anticafé Montréal, 294, rue Sainte-Catherine Ouest, H2X 2A1, Montréal QC'
 ---
 We are looking for a logo which will the most completely reflect our mission and our values. The logo which we will be proud to use and which will be recognizable.
 
