@@ -8,12 +8,12 @@ layout: default
 		<p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
 	</header>
 
-	<div class="post-content" itemprop="articleBody">
+	<section class="post-content" itemprop="articleBody">
 		{{ content }}
-	</div>
+	</section>
 
 	{% if page.related %}
-	<div class="post-related">
+	<section class="post-related">
 		<h2 class="post-related-title">Related</h2>
 
 		{% for item in page.related %}
@@ -26,12 +26,12 @@ layout: default
 				{% endif %}
 			{% endfor %}
 		{% endfor %}
-	</div>
+	</section>
 	<hr/>
 	{% endif %}
 
 	{% if page.where %}
-	<div id="where" class="post-place">
+	<section id="where" class="post-place">
 		<h2 class="post-place-title post-title-ornament">Where</h2>
 		<address class="post-place-address">
 
@@ -56,14 +56,14 @@ layout: default
 		</script>
 
 		<div id="map" class="post-place-map"></div>
-	</div>
+	</section>
 	{% endif %}
 
 	{% if page.comments and False %}
-	<div class="post-comments">
+	<section class="post-comments">
 		<h2 class="post-place-title post-title-ornament">Comments</h2>
 		<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="5"></div>
-	</div>
+	</section>
 	{% endif %}
 
 	<footer class="post-footer">

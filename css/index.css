@@ -17,10 +17,6 @@ body {
 	font-family: 'PT Serif', serif;
 	border-bottom: .25rem solid rgb(58, 137, 201);
 }
-.page-header {
-	/*border: .25rem solid rgb(255, 255, 255);*/
-	/*border-bottom: none;*/
-}
 
 a {
 	color: rgb(235, 0, 0);
