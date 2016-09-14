@@ -20,10 +20,10 @@ We are looking for a logo which will the most completely reflect our mission and
 	z-index: 1;
 	position: relative;
 	-webkit-box-flex: 1;
-	-webkit-flex: 1 0 16rem;
-	    -ms-flex: 1 0 16rem;
-	        flex: 1 0 16rem;
-	line-height: 16rem;
+	-webkit-flex: 1 0 17rem;
+	    -ms-flex: 1 0 17rem;
+	        flex: 1 0 17rem;
+	line-height: 17rem;
     text-align: center;
 	height: 16rem;
 	text-decoration: none;
