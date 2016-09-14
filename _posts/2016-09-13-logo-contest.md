@@ -63,4 +63,7 @@ Please leave your vote for the logo you like the most.
 </div>
 <div id="loggo-7" class="loggo">![v6.png]({{site.baseurl}}/img/v6.png)
 </div>
+<div id="loggo-8" class="loggo"></div>
+<div id="loggo-8" class="loggo"></div>
+<div id="loggo-8" class="loggo"></div>
 </section>
