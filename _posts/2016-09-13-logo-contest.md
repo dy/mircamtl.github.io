@@ -37,6 +37,7 @@ We are looking for a logo which will the most completely reflect our mission and
     bottom: 0;
     right: 0;
     line-height: 1;
+    opacity: .5;
     font-family: "PT Sans", sans-serif;
 }
 .loggo img {
