@@ -419,11 +419,13 @@ hr {
 }
 
 .site-footer {
-	line-height: 6rem;
+	line-height: 1rem;
 	text-align: center;
 }
 
 .site-footer-link {
+	vertical-align: baseline;
+	border: none;
 	display: inline-block;
 	position: relative;
 	font-weight: bolder;
