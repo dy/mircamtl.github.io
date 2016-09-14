@@ -52,8 +52,9 @@ a:hover {
 	border-color: rgba(255, 255, 255, 0.3);
 }
 
-img {
+img, svg {
 	max-width: 100%;
+	max-height: 100%;
 }
 
 
