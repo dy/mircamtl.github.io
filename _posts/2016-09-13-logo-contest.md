@@ -3,7 +3,7 @@ comments: false
 published: true
 title: Mirca logo contest
 ---
-Please leave your vote for the logo you like the most.
+We are looking for a logo which will the most completely reflect our mission and our values. The logo which we will be proud to use and which will be recognizable.
 
 <style>
 .loggos {
@@ -54,17 +54,13 @@ Please leave your vote for the logo you like the most.
 </div>
 <div id="loggo-2" class="loggo">![2.png]({{site.baseurl}}/img/2.png)
 </div>
-<div id="loggo-3" class="loggo">![spee.png]({{site.baseurl}}/img/spee.png)
+<div id="loggo-3" class="loggo">![3.png]({{site.baseurl}}/img/3.png)
 </div>
-<div id="loggo-4" class="loggo">![spee2.png]({{site.baseurl}}/img/spee2.png)
+<div id="loggo-4" class="loggo">![4.png]({{site.baseurl}}/img/4.png)
 </div>
-<div id="loggo-5" class="loggo">![spee3.png]({{site.baseurl}}/img/spee3.png)
+<div id="loggo-5" class="loggo">![5.png]({{site.baseurl}}/img/5.png)
 </div>
-<div id="loggo-6" class="loggo">![spee4.png]({{site.baseurl}}/img/spee4.png)
-</div>
-<div id="loggo-7" class="loggo">![v6.png]({{site.baseurl}}/img/v6.png)
-</div>
-<div id="loggo-8" class="loggo"></div>
-<div id="loggo-8" class="loggo"></div>
-<div id="loggo-8" class="loggo"></div>
+<div id="loggo-6" class="loggo"></div>
 </section>
+
+See also [mirca spiral generator](/logo).
