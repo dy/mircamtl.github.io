@@ -1,7 +1,7 @@
 ---
 comments: false
 published: true
-title: Logo contest
+title: Mirca logo contest
 ---
 Please leave your vote for the logo you like the most.
 
@@ -42,6 +42,7 @@ Please leave your vote for the logo you like the most.
 .loggo img {
 	max-height: 7rem;
     max-width: 13rem;
+    vertical-align: middle;
 }
 .loggo p {
     margin: 0;
