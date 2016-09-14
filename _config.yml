@@ -11,7 +11,7 @@ permalink: :title
 
 markdown: kramdown
 
-kramdown: 
+kramdown:
   parse_block_html: true
 
 defaults:
@@ -39,7 +39,7 @@ prose:
         field:
           element: "checkbox"
           label: "Enable comments"
-          help: "This will enable commentaries for the post"
+          help: "This will enable comments for the post"
           value: false
       - name: "when"
         field:
@@ -48,26 +48,12 @@ prose:
           help: "The date of the event"
           placeholder: "YYYY-MM-DD HH:MM"
           type: "datetime"
-          value: "CURRENT_DATETIME"
+          value: ""
       - name: "where"
         field:
           element: "text"
           label: "Where"
           help: "The place of the event"
-          placeholder: "Name/address of the place"
+          placeholder: "Anticafé Montréal, 294, rue Sainte-Catherine Ouest, H2X 2A1, Montréal QC"
           type: "text"
-          value: "Anticafé Montréal, 294, rue Sainte-Catherine Ouest, H2X 2A1, Montréal QC"
-      - name: "facebook"
-        field:
-          element: "text"
-          label: "Facebook url"
-          help: "Link to the facebook post. That will insert facebook post at the bottom of the page."
-          placeholder: "https://www.facebook.com/20531316728/posts/10154009990506729/"
-          type: "url"
-      - name: "eventbrite"
-        field:
-          element: "text"
-          label: "Eventbrite url"
-          help: "Link to the eventbrite event. That will insert eventbrite widget at the bottom of the page."
-          placeholder: "https://www.eventbrite.ca/e/traditional-russian-tea-ceremony-tickets-25958220737"
-          type: "url"
+          value: ""
