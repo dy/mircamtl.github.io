@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jekyll build",
+    "start": "jekyll build",
+    "build": "jekyll build",
     "watch": "jekyll build --watch"
   },
   "repository": {
