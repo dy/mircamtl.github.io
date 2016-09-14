@@ -2,6 +2,8 @@
 comments: true
 published: true
 title: Mirca logo contest
+when: '2016-09-13 23:42 -0400'
+where: 'Anticafé Montréal, 294, rue Sainte-Catherine Ouest, H2X 2A1, Montréal QC'
 ---
 We are looking for a logo which will the most completely reflect our mission and our values. The logo which we will be proud to use and which will be recognizable.
 
@@ -64,4 +66,7 @@ We are looking for a logo which will the most completely reflect our mission and
 <div id="loggo-6" class="loggo"></div>
 </section>
 
-See also [mirca spiral generator](/logo).
+## Related
+
+* [Mirca spiral generator](/logo)
+* [Mirca logo repository](https://github.com/mircamtl/logo)
