@@ -2,7 +2,7 @@
 comments: false
 when: '2016-09-13 21:16 -0400'
 where: 'Anticafé Montréal, 294, rue Sainte-Catherine Ouest, H2X 2A1, Montréal QC'
-published: false
+published: true
 title: Logo contest
 ---
 Please leave your vote for the logo you like the most.
