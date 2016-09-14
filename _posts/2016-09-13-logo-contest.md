@@ -3,7 +3,9 @@ comments: true
 published: true
 title: Mirca logo contest
 ---
-We are looking to recruit some talented, innovative graphic designers to participate in a logo contest! We will choose the logo that we believe best reflects our mission and our values. Below are some of the works in progress. The winning designer will receive 6 free passes to MIRCA events held at Anticafe Montréal.
+We are looking to recruit some talented, innovative graphic designers to participate in a logo contest! We will choose the logo that we believe best reflects our mission and our values. Below are some of the works in progress. The contestant with the winning design will receive six (6) passes to MIRCA events at Anticafe (valid until May 2017).
+
+The logo contest will take place at Anticafe Montreal, 624, rue Sainte-Catherine Ouest, Montreal, QC, CA H2X 2A1 on Thursday September 20th, 2016 at 18h30. Please submit your design to russianculturalexchange@gmail.com with the subject "MIRCA Logo Contest" by Wednesday, September 19th, 2016. 
 
 <style>
 .loggos {
