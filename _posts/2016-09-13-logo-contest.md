@@ -64,4 +64,7 @@ We are looking for a logo which will the most completely reflect our mission and
 <div id="loggo-6" class="loggo"></div>
 </section>
 
-See also [mirca spiral generator](/logo).
+## Related
+
+* [Mirca spiral generator](/logo)
+* [Mirca logo repository](https://github.com/mircamtl/logo)
