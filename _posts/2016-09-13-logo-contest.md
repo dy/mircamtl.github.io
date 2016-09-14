@@ -7,30 +7,44 @@ Please leave your vote for the logo you like the most.
 
 <style>
 .loggos {
-display: -webkit-box;
-display: -webkit-flex;
-display: -ms-flexbox;
-display: flex;
--webkit-flex-flow: row wrap;
--ms-flex-flow: row wrap;
-flex-flow: row wrap;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    counter-reset: loggo;
 }
 .loggo {
 	z-index: 1;
 	position: relative;
 	-webkit-box-flex: 1;
-	-webkit-flex: 1 0 8rem;
-	    -ms-flex: 1 0 8rem;
-	        flex: 1 0 8rem;
-	font-size: 4rem;
-	line-height: 8rem;
-	height: 8rem;
+	-webkit-flex: 1 0 16rem;
+	    -ms-flex: 1 0 16rem;
+	        flex: 1 0 16rem;
+	line-height: 16rem;
+    text-align: center;
+	height: 16rem;
 	text-decoration: none;
 	color: black;
 }
 .loggo:after {
-counter-increment: section;
-content: counter(section);
+    counter-increment: loggo;
+    content: counter(loggo);
+    font-size: 1rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    line-height: 1;
+    font-family: "PT Sans", sans-serif;
+}
+.loggo img {
+	max-height: 7rem;
+    max-width: 13rem;
+}
+.loggo p {
+    margin: 0;
 }
 </style>
 
