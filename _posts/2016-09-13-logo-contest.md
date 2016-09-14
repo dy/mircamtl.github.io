@@ -32,7 +32,7 @@ We are looking for a logo which will the most completely reflect our mission and
 .loggo:after {
     counter-increment: loggo;
     content: counter(loggo);
-    font-size: 1rem;
+    font-size: .8rem;
     position: absolute;
     bottom: 0;
     right: 0;
