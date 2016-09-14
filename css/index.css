@@ -421,6 +421,7 @@ hr {
 .site-footer {
 	line-height: 1rem;
 	text-align: center;
+	padding: 3rem 0;
 }
 
 .site-footer-link {
@@ -431,7 +432,11 @@ hr {
 	font-weight: bolder;
 	text-decoration: none;
 }
+.site-footer-link svg {
+	fill: currentColor;
+}
 .site-footer-link:hover {
+	border: none;
 }
 
 .site-footer-column {
