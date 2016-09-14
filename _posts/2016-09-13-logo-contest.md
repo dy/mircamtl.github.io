@@ -2,6 +2,7 @@
 comments: true
 published: true
 title: Mirca logo contest
+where: 'Anticafé Montréal, 294, rue Sainte-Catherine Ouest, H2X 2A1, Montréal QC'
 ---
 We are looking to recruit some talented, innovative graphic designers to participate in a logo contest! We will choose the logo that we believe best reflects our mission and our values. Below are some of the works in progress. The contestant with the winning design will receive six (6) passes to MIRCA events at Anticafe (valid until May 2017).
 
