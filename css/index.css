@@ -433,6 +433,7 @@ hr {
 	text-decoration: none;
 }
 .site-footer-link svg {
+	vertical-align: bottom;
 	fill: currentColor;
 }
 .site-footer-link:hover {
@@ -559,7 +560,6 @@ hr {
 }
 .post-item-content {
 	position: relative;
-	width: 50%;
 }
 
 .post-item-title {
@@ -579,6 +579,9 @@ hr {
 .post-item-title-link:hover {
 	border-color: rgba(0, 0, 0, 1);
 }
+.post-item-preview {
+	display: none;
+}
 .post-item-preview-link {
 	border: none!important;
 }
@@ -595,7 +598,7 @@ hr {
 .post-item-excerpt {
 	display: block;
 	/*background-color: rgba(255,255,255,1);*/
-	background-image: linear-gradient(to right, rgba(255,255,255,1) 95%, rgba(255,255,255,.9) 103%);
+	/*background-image: linear-gradient(to right, rgba(255,255,255,1) 95%, rgba(255,255,255,.9) 103%);*/
 	position: relative;
 	z-index: 1;
 }
