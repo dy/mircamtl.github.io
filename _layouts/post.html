@@ -12,8 +12,6 @@ layout: default
 		{{ content }}
 	</div>
 
-	<hr/>
-
 	{% if page.related %}
 	<div class="post-related">
 		<h2 class="post-related-title">Related</h2>
@@ -29,9 +27,8 @@ layout: default
 			{% endfor %}
 		{% endfor %}
 	</div>
-	{% endif %}
-
 	<hr/>
+	{% endif %}
 
 	{% if page.where %}
 	<div id="where" class="post-place">
