@@ -1,12 +1,18 @@
 ---
 comments: true
 published: true
-title: Mirca logo contest
+title: 'MIRCA Logo Design Contest '
 where: 'Anticafé Montréal, 294, rue Sainte-Catherine Ouest, H2X 2A1, Montréal QC'
 ---
-We are looking to recruit some talented, innovative graphic designers to participate in a logo contest! We will choose the logo that we believe best reflects our mission and our values. Below are some of the works in progress. The contestant with the winning design will receive six (6) passes to MIRCA events at Anticafe (valid until May 2017).
+We are looking for talented, innovative graphic designers to participate in a logo design contest for our organization! We will choose the logo that we believe best reflects our organization’s mission and values. The logo will be used on letterheads of official documents, the MIRCA website, and business cards. 
 
-The logo contest will take place at Anticafe Montreal, 624, rue Sainte-Catherine Ouest, Montreal, QC, CA H2X 2A1 on Thursday September 20th, 2016 at 18h30. Please submit your design to russianculturalexchange@gmail.com with the subject "MIRCA Logo Contest" by Wednesday, September 19th, 2016. 
+**Who We Are**: MIRCA is a non-profit organization that promotes the greater appreciation of Russian language and culture. MIRCA is in the process of expanding from its startup, the Russian Cultural Exchange, into an organization that provides various educational and social networking events for Russian and non-Russian speakers.
+
+**Reward:** The contestant with the winning design will receive a $100.00 plus five (5) passes to all MIRCA events held at Anticafe ($50.00 value; valid until May 2017), as well as promotional visibility and design credits on our MIRCA website and social media platforms. 
+
+**Submission Criteria**: Final submissions for the web version should be submitted in 72 DPI, RVB; the print document version should be in at least 300 DPI, CMYK. The print document version should contain a bleed of 0.25in. Both document must be submitted in PDF format. Please visit mirca.ca/logo-contest to view existing prototypes for logo designs. Deadlines for final submissions must be submitted to russianculturalexchange@gmail.com with “MIRCA Logo Design Contest” in the subject line. Documents may be sent as attachments or a link to your online file sharing (i.e., Dropbox) by Friday, September 28th, 2016. No restrictions in terms of content! We encourage your creative use of images, lettering, drawings, etc!
+
+**INFO SESSION** will be held on **Thursday, September 20th at 6:30p.m.** We will explain MIRCA’s mission and values, why the existing logotypes are not suitable for the organization, and answer any questions. 
 
 <style>
 .loggos {
