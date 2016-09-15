@@ -330,6 +330,18 @@ figure {
 .page-content ul,
 .page-content ol {
 	margin-top: 0;
+    position: relative;
+}
+
+.page-content ul {
+    padding-left: 1.5rem;
+	list-style: none;
+}
+
+.page-content ul li:before {
+    content: '—';
+    position: absolute;
+    left: 0;
 }
 
 .page-content blockquote {
