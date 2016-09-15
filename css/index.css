@@ -51,11 +51,6 @@ a:hover {
 	border-color: rgba(255, 255, 255, 0.3);
 }
 
-img, svg {
-	max-width: 100%;
-	max-height: 100%;
-}
-
 
 h1,
 h2,
@@ -251,6 +246,12 @@ figure {
 .page-content {
 	overflow: hidden;
 	margin-top: 0;
+}
+
+.post-content img,
+.post-content svg {
+	max-width: 100%;
+	max-height: 100%;
 }
 
 .page-content p {
