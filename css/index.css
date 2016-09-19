@@ -198,7 +198,7 @@ figure {
 .breadcrumbs {
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 1rem;
-	margin-top: 2rem;
+	margin-top: 1rem;
 	margin-left: -1.666rem;
 }
 .breadcrumb-sep {
@@ -323,6 +323,7 @@ figure {
 
 .page-content {
 	overflow: hidden;
+	padding: 2rem 0;
 }
 
 .post-content img,
@@ -642,6 +643,9 @@ hr {
 	margin: 0;
 	padding: 3rem 0rem 3rem;
 	/*border-bottom: .1rem dotted rgba(0, 0, 0, .15);*/
+}
+.post-item:first-child {
+	padding-top: 1rem;
 }
 .post-item:after {
 	content: '';
