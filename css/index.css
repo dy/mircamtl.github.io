@@ -636,9 +636,6 @@ hr {
 	padding: 3rem 0rem 3rem;
 	/*border-bottom: .1rem dotted rgba(0, 0, 0, .15);*/
 }
-.post-item:first-child {
-	padding-top: 1rem;
-}
 .post-item:after {
 	content: '';
 	position: absolute;
