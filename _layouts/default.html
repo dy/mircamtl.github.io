@@ -13,18 +13,7 @@
 		fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));</script>
 
-
 		{% include header.html %}
-
-		<section class="page-header" style="background-image: url({{ page.image | default: '/img/header.jpg' }});">
-			<div class="content-centered">
-				{% comment %}
-				<!-- <a href="/" class="site-logo">{% include moscow.svg %}</a> -->
-				{% endcomment %}
-				<h1 class="page-title">{{ page.title | default: site.title }}</h1>
-				<h2 class="page-tagline">{{ page.tagline | default: site.tagline }}</h2>
-			</div>
-		</section>
 
 		<section class="page-content content-centered">
 			{{ content }}

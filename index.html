@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
+{% comment %}Events page{% endcomment %}
 
 {% for post in site.posts %}
 <article class="post-item" itemscope itemtype="http://schema.org/BlogPosting">
-
 	<header class="post-item-header">
 		{% if post.image %}
 			<figure class="post-item-preview">
@@ -29,33 +29,8 @@ layout: default
 			{% comment %}
 			<a href="{{ post.url | prepend: site.baseurl }}" class="post-item-button">Read full story →</a>
 			{% endcomment %}
-			<div class="post-item-meta">{{ post.date | date: "%B %-d, %Y" }}</div>
+			<div class="post-item-meta">{% include time.html date=post.date %}</div>
 		</div>
 	</header>
 </article>
 {% endfor %}
-
-<div class="about-us">
-	<h2 class="about-us-title">About us</h2>
-	<div class="about-us-content">
-		<p>
-		The Russian Cultural Exchange is a startup initiative that promotes Russian culture in Montreal. It works with local businesses from the Russian-speaking world to create a place where Russian speakers and enthusiasts can mingle, network and share information about the Russian world, its culture and history.
-		</p>
-
-		<p>
-		Our mission is to create a centre to facilitate a deeper understanding of the various aspects of the past and present Russian world.
-		</p>
-
-		<p>
-		All events are open to students of Russian language, native Russians-speakers, francophones, anglophones, and anyone else who is interested in learning something about the Russian world. It is not necessary to know how to speak Russian in order to participate in our events.
-		</p>
-
-		<p>
-		Our events include: bi-monthly Russian conversation club for all levels; culinary events; Russian holiday celebrations; literature readings and film screenings; speaker series featuring scholars from McGill University, Concordia University, UdeM, and UQAM who specialize in various aspects of Russian arts, culture and history.
-		</p>
-
-		Contact: russianculturalexchange@gmail.com
-	</div>
-</div>
-
-<p class="rss-subscribe" style="display: none">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
