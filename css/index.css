@@ -617,7 +617,7 @@ hr {
 .post {
 	position: relative;
 	margin: 0;
-	padding: 3rem 0rem 1.5rem;
+	padding: 1rem 0rem 1.5rem;
 }
 .post:after {
 	content: '';
