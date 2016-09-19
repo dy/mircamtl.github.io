@@ -261,7 +261,7 @@ figure {
 	}
 
 	.breadcrumbs {
-		margin-left: 1rem;
+		margin-left: 0rem;
 	}
 }
 
@@ -324,6 +324,12 @@ figure {
 .page-content {
 	overflow: hidden;
 	padding: 2rem 0;
+}
+
+@media screen and (max-width: 42rem) {
+	.page-content {
+		padding: 1rem 1rem;
+	}
 }
 
 .post-content img,
@@ -624,13 +630,6 @@ hr {
 	/*background: url('../img/border.png') repeat-x left center;*/
 }
 
-@media (max-width: 42em) {
-	.post {
-		padding: 1rem 1rem;
-	}
-}
-
-
 .post-item {
 	position: relative;
 	margin: 0;
@@ -727,9 +726,8 @@ hr {
 }
 
 @media (max-width: 42rem) {
-	.post-item {
-		padding-left: 1rem;
-		padding-right: 1rem;
+	.post {
+		padding-top: 1rem;
 	}
 
 	.post-item h1,
