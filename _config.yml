@@ -31,8 +31,9 @@ defaults:
 
 prose:
   rooturl: ''
-  siteurl: 'http://rcemtl.github.io'
+  siteurl: 'http://mirca.ca'
   media: 'img'
+  ignore: ['CNAME', '_config.yml', '*.json', '.gitignore', 'readme.md', '*.xml', 'admin.html']
   metadata:
     _posts:
       - name: "lang"
