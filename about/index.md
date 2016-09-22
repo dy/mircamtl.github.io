@@ -2,7 +2,10 @@
 layout: default
 ref: about
 lang: en
+published: true
 ---
+# About MIRCA
+
 Startup initiative that promotes Russian culture in Montreal. It works with local businesses from the Russian-speaking world to create a place where Russian speakers and enthusiasts can mingle, network and share information about the Russian world, its culture and history.
 
 Our mission is to create a centre to facilitate a deeper understanding of the various aspects of the past and present Russian world.
