@@ -30,7 +30,7 @@ defaults:
     - {scope: {path: ""}, values: {layout: "post"}}
 
 prose:
-  rooturl: '_posts'
+  rooturl: ''
   siteurl: 'http://rcemtl.github.io'
   media: 'img'
   metadata:
@@ -75,3 +75,23 @@ prose:
           placeholder: "Anticafé Montréal, 294, rue Sainte-Catherine Ouest, H2X 2A1, Montréal QC"
           type: "text"
           value: ""
+
+t:
+  en:
+    home: "Home"
+    about: "About"
+    events: "Events"
+    programs: "Programs"
+  fr:
+    home: "Accueil"
+    about: "À propos"
+    events: "Affiche"
+    programs: "Programmes"
+  zh:
+    home: "首页"
+    about: "关于"
+  ru:
+    home: "Главная"
+    about: "О нас"
+    events: "События"
+    programs: "Программы"

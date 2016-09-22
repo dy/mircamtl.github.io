@@ -1,9 +1,9 @@
 ---
 layout: default
 ref: index
-lang: fr
+lang: ru
 ---
-{% assign lang=page.lang | default: 'en' %}
+{% assign lang=page.lang %}
 
 {% assign posts=site.posts | where:"lang", lang %}
 {% include posts.html posts=posts %}

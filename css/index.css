@@ -180,12 +180,12 @@ figure {
 .site-nav {
 	position: relative;
 	float: right;
+	clear: right;
 	color: white;
-	font-size: .8rem;
+	font-size: 1rem;
 }
 .site-nav a {
 	color: white;
-	font-size: 1rem;
 	margin: 0 .333rem;
 	border-bottom: 1px solid rgba(255,255,255, .15);
 }
@@ -195,14 +195,16 @@ figure {
 
 
 .site-lang {
-	position: absolute;
-	top: 0;
+	position: relative;
+	float: right;
+	clear: right;
 	color: white;
-	font-size: .8rem;
+	margin-top: -3rem;
+	line-height: 3rem;
+	font-size: .75rem;
 }
 .site-lang a {
 	color: white;
-	font-size: 1rem;
 	margin: 0 .333rem;
 	border-bottom: 1px solid rgba(255,255,255, .15);
 }

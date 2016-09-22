@@ -5,17 +5,16 @@
 		<h3 class="site-tagline">{{ site.tagline[lang] }}</h3>
 	</a>
 
-	<nav class="site-nav">
-		<a href="/">Events</a> ♦
-		<a href="/programs">Programs</a> ♦
-		<a href="/about">About</a>
-	</nav>
-
 	<nav class="site-lang">
-		{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-		{% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
-
-		{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-		{% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
+		{% if lang != 'en' %}<a href="./">English</a>{% endif %}
+		{% if lang != 'fr' %}<a href="./fr">Français</a>{% endif %}
+		{% if lang != 'ru' %}<a href="./ru">Русский</a>{% endif %}
 	</nav>
+
+	<nav class="site-nav">
+		<a href="/">{{ site.t[lang].events }}</a> ♦
+		<a href="/programs">{{ site.t[lang].programs }}</a> ♦
+		<a href="/about">{{ site.t[lang].about }}</a>
+	</nav>
+
 </div></header>
