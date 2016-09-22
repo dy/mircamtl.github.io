@@ -12,9 +12,9 @@
 	</nav>
 
 	<nav class="site-nav">
-		<a href="/">{{ site.t[lang].events }}</a> ♦
-		<a href="/programs">{{ site.t[lang].programs }}</a> ♦
-		<a href="/about">{{ site.t[lang].about }}</a>
+		<a href="/{% if lang != 'en' %}{{ lang }}{% endif %}">{{ site.t[lang].events }}</a> ♦
+		<a href="/programs/{% if lang != 'en' %}{{ lang }}{% endif %}">{{ site.t[lang].programs }}</a> ♦
+		<a href="/about/{% if lang != 'en' %}{{ lang }}{% endif %}">{{ site.t[lang].about }}</a>
 	</nav>
 
 </div></header>
