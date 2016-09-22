@@ -5,6 +5,7 @@ published: true
 title: 'The Saints'' Script: How the Cyrillic Alphabet was Made'
 image: img/cyr.jpg
 when: '2016-05-24 02:08 -0400'
+lang: en
 ---
 Vladimir Ivantsov, doctoral canditate of Russian Studies at McGill University, will talk on the origins of the Cyrillic script, on which the modern alphabets of many Slavic (and several non-Slavic) languages are based (Belarusian, Bulgarian, Russian, Serbo-Croatian and others).
 

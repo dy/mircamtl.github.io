@@ -5,6 +5,7 @@ published: true
 title: Russian Film Screening Series
 image: img/film.jpg
 when: '2016-06-21 02:08 -0400'
+lang: en
 related:
   - tea-ceremony
   - russian-film-screening-series

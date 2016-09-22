@@ -1,0 +1,31 @@
+{% for post in include.posts %}
+<article class="post-item" itemscope itemtype="http://schema.org/BlogPosting">
+	<header class="post-item-header">
+		{% if post.image %}
+			<figure class="post-item-preview">
+				<a href="{{ post.url | prepend: site.baseurl }}" class="post-item-preview-link">
+					<img src="{{ post.image }}" alt="{{ post.title }}" class="post-image"/>
+				</a>
+			</figure>
+		{% endif %}
+		<div class="post-item-content">
+			{% if post.when %}
+				<time class="post-item-date">
+					<div class="post-item-date-day">{{ post.when | date: '%d' }}</div>
+					<div class="post-item-date-month">{{ post.when | date: '%B' }}</div>
+				</time>
+			{% endif %}
+			<h2 class="post-item-title">
+				<a class="post-item-title-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</h2>
+			<div class="post-item-excerpt">
+				{{ post.excerpt }}
+			</div>
+			{% comment %}
+			<a href="{{ post.url | prepend: site.baseurl }}" class="post-item-button">Read full story →</a>
+			{% endcomment %}
+			<div class="post-item-meta">{% include time.html date=post.date %}</div>
+		</div>
+	</header>
+</article>
+{% endfor %}

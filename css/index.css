@@ -194,6 +194,23 @@ figure {
 }
 
 
+.site-lang {
+	position: absolute;
+	top: 0;
+	color: white;
+	font-size: .8rem;
+}
+.site-lang a {
+	color: white;
+	font-size: 1rem;
+	margin: 0 .333rem;
+	border-bottom: 1px solid rgba(255,255,255, .15);
+}
+.site-lang a:hover {
+	border-bottom: 1px solid rgba(255,255,255, 1);
+}
+
+
 
 .breadcrumbs {
 	font-family: 'PT Sans Narrow', sans-serif;

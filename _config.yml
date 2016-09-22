@@ -1,8 +1,20 @@
-title: MIRCA
-tagline: Morgan Initiative for Russian Cultural Affairs
+title:
+  en: MIRCA
+  fr: MIRCA
+  ru: МИРКА
+tagline:
+  en: Morgan Initiative for Russian Cultural Affairs
+  fr: Morgan Initiative for Russian Cultural Affairs
+  ru: Инициатива Морган по Русским Культурным Делам
+index:
+  en: index.html
+  fr: accueil.html
+  ru: privet.html
 email: russianculturalexchange@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  The Russian Cultural Exchange is a startup initiative that promotes Russian culture in Montreal. It works with local businesses from the Russian-speaking world to create a place where Russian speakers and enthusiasts can mingle, network and share information about the Russian world, its culture and history. Our mission is to create a centre to facilitate a deeper understanding of the various aspects of the past and present Russian world. All events are open to students of Russian language, native Russians-speakers, francophones, anglophones, and anyone else who is interested in learning something about the Russian world. It is not necessary to know how to speak Russian in order to participate in our events. Our events include: bi-monthly Russian conversation club for all levels; culinary events; Russian holiday celebrations; literature readings and film screenings; speaker series featuring scholars from McGill University, Concordia University, UdeM, and UQAM who specialize in various aspects of Russian arts, culture and history.
+description:
+  en: Startup initiative that promotes Russian culture in Montreal. It works with local businesses from the Russian-speaking world to create a place where Russian speakers and enthusiasts can mingle, network and share information about the Russian world, its culture and history.
+  fr: Oh lah lah
+  ru:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mirca.ca"
 twitter_username: mircamtl
@@ -23,6 +35,12 @@ prose:
   media: 'img'
   metadata:
     _posts:
+      - name: "lang"
+        field:
+          element: "text"
+          label: "Language"
+          help: "en, fr or ru"
+          value: "en"
       - name: "title"
         field:
           element: "text"

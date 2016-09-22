@@ -1,13 +1,21 @@
 <header class="site-header"><div class="content-centered">
 	<a class="site-logo" href="{{ site.baseurl }}/">
 		<img class="site-logo-image" src="{{ site.baseurl }}/img/logo-white.png"/>
-		<h2 class="site-title">{{ site.title }}</h2>
-		<h3 class="site-tagline">{{ site.tagline }}</h3>
+		<h2 class="site-title">{{ site.title[lang] }}</h2>
+		<h3 class="site-tagline">{{ site.tagline[lang] }}</h3>
 	</a>
 
 	<nav class="site-nav">
 		<a href="/">Events</a> ♦
 		<a href="/programs">Programs</a> ♦
 		<a href="/about">About</a>
+	</nav>
+
+	<nav class="site-lang">
+		{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+		{% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
+
+		{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+		{% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
 	</nav>
 </div></header>
